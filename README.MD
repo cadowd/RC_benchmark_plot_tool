@@ -22,4 +22,4 @@ matplotlib .
 ## Use:
 Using this tool is as simple as choosing the folder of the logs you wish to plot. It helps to have the logs named appropriately. Once you have selected the folder, any of the results files can be plotted by checking the box next to their names. The properties on the x and y axes can be selected from the drop boxes below. The drop boxes automatically show any logged values, if a temperature sensor is used the temperature values will be available for example.
 
-![screenshot](/img/ss.png)
+![screenshot](/img/ss.PNG)
