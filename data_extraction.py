@@ -42,6 +42,7 @@ def on_plot_hover(event):
             print ("over %s" % curve.get_gid())
 
 if __name__ == "__main__":
+    pass
 #    fig = plt.figure()
 #    plot = fig.add_subplot(111)
 #    

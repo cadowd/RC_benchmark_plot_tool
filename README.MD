@@ -19,7 +19,7 @@ numpy (ensure it is the most recent version)
 
 matplotlib .
 
-## First Use:
-The main window shows the power consumption of selected combinations. To plot the power consumption (or efficiency), simply select a motor from the list (new motors can be added if you can't find the one you want), a propeller (currently the only propellers selectable are onces for which the data is available) and an aircraft, then click 'Plot'. Multiple motors, propellers and aircraft can be selected for comparison, the plot is cleared by clicking clear plot in the lower right. The aircraft is defined by its drag polar (the drag as a quadratic function of lift), which can be calculated from exported XFLR5 results. To use XFLR5 results, a type 2 analysis must be run (fixed lift) and the resulting polar exported to a csv file. This file can then be read by PropPy. More details on defining an aircraft can be found in the aircraft section.
+## Use:
+Using this tool is as simple as choosing the folder of the logs you wish to plot. It helps to have the logs named appropriately. Once you have selected the folder, any of the results files can be plotted by checking the box next to their names. The properties on the x and y axes can be selected from the drop boxes below. The drop boxes automatically show any logged values, if a temperature sensor is used the temperature values will be available for example.
 
-Battery and atmosphere settings are changed in the settings drop down menu.
+![screenshot](/img/ss.png)
